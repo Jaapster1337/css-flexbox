@@ -3,8 +3,33 @@ body{
     flex-direction: row;
     min-height: 100vh;
 }
-.col-1{
 
+.col-1{
+    flex-basis: 15vw;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
+.col-2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+main{
+    flex-direction: column;
+    display: flex;
+}
+
+header{
+    flex-basis: 20vh;
+}
+
+article{
+    flex-basis: 60vh;
+}
+
+footer{
+    flex-basis: 20vh;
+}
 
