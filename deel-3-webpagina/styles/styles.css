@@ -24,13 +24,14 @@ section{
     flex: 1;
     justify-content: space-around;
     gap: 20px;
-    align-items: center;
+    align-items: center ;
 
 
 }
 
 .block{
     border: 3px solid yellow;
+    border-radius: 15px;
     display: flex;
     background-color: #C16E70;
     max-width: 280px;
