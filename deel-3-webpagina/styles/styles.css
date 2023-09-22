@@ -1,1 +1,40 @@
-/*Schrijf hier jouw css*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f3d9;
+    min-height: 100vh;
+    margin:0;
+}
+
+.top-text{
+    border: 3px solid blue;
+    align-items: flex-start;
+    text-align: center;
+}
+
+section{
+    border: 3px solid green;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+
+
+}
+
+.block{
+    border: 3px solid yellow;
+    display: flex;
+    background-color: #C16E70;
+    max-width: 280px;
+    height: 350px;
+    align-items: flex-end;
+
+}

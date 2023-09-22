@@ -1,1 +1,39 @@
-/*Schrijf hier jouw CSS*/
+*{
+    border: 1px solid red;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    flex-basis: 15vh;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vh;
+}
+
+nav{
+    flex-basis: 15%;
+    order: 1;
+}
+
+article{
+    flex-basis: 70%;
+    order:2;
+
+
+}
+
+aside{
+    flex-basis: 15%;
+    order:3;
+}
+
+footer{
+    flex-basis: 15vh;
+}
